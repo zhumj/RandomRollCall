@@ -41,7 +41,7 @@ import { ref } from "vue"
 import 'element-plus/es/components/message/style/css'
 import { ElMessage } from 'element-plus'
 
-const rawDatas = ref<string>('中森明菜,周慧敏,克莉丝汀·斯图尔特,西野翔,洪真英,张敏,桥本环奈,邱淑贞,奥黛丽·赫本,赵丽颖,星野悠月,布兰妮·斯皮尔斯,等什么君,秦可卿,秦羽墨')
+const rawDatas = ref<string>('中森明菜,周慧敏,克莉丝汀·斯图尔特,西野翔,洪真英,张敏,桥本环奈,邱淑贞,奥黛丽·赫本,赵丽颖,星野悠月,布兰妮·斯皮尔斯,邓寓君,坂井泉水,秦可卿,秦羽墨')
 const randomDatas = ref<string[]>([])
 const selectedDatas = ref<string[]>([])
 const selectedDatasStr = ref<string>('')
